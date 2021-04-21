@@ -2,7 +2,7 @@
 include('simple_html_dom.php');
 
 
-$product[] = array();
+$product = array();
 
 $html = file_get_html('https://dev-test.hudsonstaging.co.uk/');
 
